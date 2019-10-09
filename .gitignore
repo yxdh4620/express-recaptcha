@@ -1,4 +1,5 @@
 node_modules
 .git
 npm-debug.log
-dist
+#dist
+package-lock.json
