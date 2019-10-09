@@ -11,7 +11,7 @@ var https = __importStar(require("https"));
 var RecaptchaV3 = (function () {
     function RecaptchaV3(site_key, secret_key, options) {
         this._api = {
-            host: 'www.google.com',
+            host: 'www.recaptcha.net',
             script: '/recaptcha/api.js',
             verify: '/recaptcha/api/siteverify'
         };
